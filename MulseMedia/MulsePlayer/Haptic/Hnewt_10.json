@@ -1,0 +1,22 @@
+{
+  "start": 100,
+  "type": "real",
+  "number": 10,
+  "effect": "haptic",
+  "haptic_effects": [
+    {
+      "start": 92.0,
+      "description": {
+        "pattern": [
+          {
+            "type": "custom",
+            "length-ms": 0
+          }
+        ],
+        "rate": {
+          "frequency": 0
+        }
+      }
+    }
+  ]
+}

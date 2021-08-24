@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>videojs-vr Demo</title>
+   <link href="../video-js.css" rel="stylesheet">
+</head>
+<body>
+  <p>EAC video</p>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="./test.js"> </script>
+  <video width="640" height="300" onplay="start()" onpause="pauseJSONfunc()" onended="stopJSONfunc()" id="videojs-vr-player-eac" class="video-js vjs-default-skin" controls playsinline>
+    <source src="../RedwoodsWalkAmongGiants(360 Video).mp4" type="video/mp4">
+  </video>
+
+  <script>
+    var ele = document.getElementById("videojs-vr-player-eac");
+    console.log(ele);
+  </script>
+
+  <script src="../video.js"></script>
+  <script src="../videojs-vr.js"></script>
+  <script>
+    (function(window, videojs) {
+      window.vr_eac = videojs('videojs-vr-player-eac').vr({projection: 'EAC', debug: true, forceCardboard: false});
+    }(window, window.videojs));
+  </script>
+</body>
+</html>

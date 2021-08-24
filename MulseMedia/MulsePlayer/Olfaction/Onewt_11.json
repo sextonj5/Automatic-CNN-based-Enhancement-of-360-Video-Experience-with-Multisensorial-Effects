@@ -1,0 +1,13 @@
+{
+  "start": 110,
+  "type": "real",
+  "number": 11,
+  "effect": "olfaction",
+  "olfaction_effects": [
+    {
+      "start": 1000,
+      "duration": "10000",
+      "fan_number": "4"
+    }
+  ]
+}
