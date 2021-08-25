@@ -30,7 +30,7 @@ Install firefox extended support, in the headset open firefox extended support a
 8.  Input the IP address and port of the server into firefox extended support
 9.  Playback should commence in the headset.
 
-# This project is a conglomeration of a few amazing open source libraries.
+# This Project Uses The following Dependencies.
 
 * VideoJS
 * Three.js
