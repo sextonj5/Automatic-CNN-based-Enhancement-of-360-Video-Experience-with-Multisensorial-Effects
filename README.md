@@ -25,8 +25,8 @@ Install firefox extended support, in the headset open firefox extended support a
 3.  The code splits the VR video into video and audio components for Haptic and olfaction prediction.
 4.  For the video the frames are sampled once per second and they are cropped up into smaller 2-Dimensional tiles, the individual faces of the cubemap. These cubemap faces are passed into a ResNet18 CNN, pretrained on the Places365 Dataset. The algorithm combines the output vectors of the CNN's predictions to form one prediction for 3-Dimensional space. Each of the 365 categories in Places365 has been encoded with a specific smell in the script. 
 5.  For the audio we perform a RMS on the signal in time steps of equal length, if the RMS exceeds a calibrated tolerance, Haptic feedback will be played back
-6.  run the cells sequentially, haptic and olfaction JSON files will be created automatically using the Algorithms and saved into the same folder containing the Python script. If you are using Colab you will need to download these to the Mulsemedia player folder, along with the VR video. If you are using Jupyter Notebook you can have everything set up in the same directory so moving files is not necessary.
-7.  open a server within the directory on the host machine containing the JSON files, VR Video and MulseMedia Player.
-8.  input the IP address and port of the server into firefox extended support
-9.  playback should commence in the headset.
+6.  Run the cells sequentially, haptic and olfaction JSON files will be created automatically using the Algorithms and saved into the same folder containing the Python script. If you are using Colab you will need to download these to the Mulsemedia player folder, along with the VR video. If you are using Jupyter Notebook you can have everything set up in the same directory so moving files is not necessary.
+7.  Open a server within the directory on the host machine containing the JSON files, VR Video and MulseMedia Player.
+8.  Input the IP address and port of the server into firefox extended support
+9.  Playback should commence in the headset.
 
