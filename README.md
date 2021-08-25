@@ -32,8 +32,8 @@ Install firefox extended support, in the headset open firefox extended support a
 
 # This project is a conglomeration of a few amazing open source libraries.
 
-> VideoJS
-> Three.js
-> webvr-polyfill
-> Omnitone
-> Videojs-VR By Brandon O'Casey
+* VideoJS
+* Three.js
+* webvr-polyfill
+* Omnitone
+* Videojs-VR By Brandon O'Casey
